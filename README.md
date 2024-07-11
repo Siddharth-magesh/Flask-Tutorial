@@ -3,6 +3,8 @@
 ## Introduction
 Welcome to the Flask Stack tutorial on full-stack development using Python. This tutorial is designed to help you build a lightweight and quick responsive API. Flask's simple implementation and abundant online documentation make it an ideal choice for web development. 
 
+**Video Tutorial** : (https://www.anaconda.com/download)
+
 The architecture is divided into three parts:
 1. **Front-end:** Consists of HTML, CSS, and JavaScript.
 2. **Core:** Runs on Python and includes two key modules: Flask and MySQL Connector.
