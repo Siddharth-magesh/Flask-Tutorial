@@ -57,6 +57,6 @@ The tutorial begins with the HTML form tag, which collects user input and sends 
 
 8. Run the main application:
     ```bash
-    python main.py
+    python app.py
     ```
     This command starts the Flask application.
