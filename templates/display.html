@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fetch Data</title>
+  </head>
+  <body>
+    <h2>Fetch Employee Details</h2>
+
+    <!-- Form for submitting the name to fetch employee details -->
+    <form action="/fetch_data" method="post">
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" /><br /><br />
+      <input type="submit" value="Fetch" />
+    </form>
+
+    <!-- Conditionally display employee details if data is present -->
+    {% if data %}
+    <h3>Employee Details:</h3>
+    <p>Name: {{ data['name'] }}</p>
+    <p>Age: {{ data['age'] }}</p>
+    <p>Salary: {{ data['salary'] }}</p>
+    {% endif %}
+
+    <!-- Conditionally display a message if no data is found -->
+    {% if message %}
+    <p>{{ message }}</p>
+    {% endif %}
+  </body>
+</html>

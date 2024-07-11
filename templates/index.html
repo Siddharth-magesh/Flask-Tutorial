@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Submit Details</title>
+  </head>
+  <body>
+    <h2>Submit your details</h2>
+
+    <!-- Form for submitting user details -->
+    <form action="/submit" method="post">
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" /><br /><br />
+
+      <label for="age">Age:</label><br />
+      <input type="text" id="age" name="age" /><br /><br />
+
+      <label for="salary">Salary:</label><br />
+      <input type="text" id="salary" name="salary" /><br /><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+
+    <!-- Form for navigating to another page -->
+    <form action="/another_page" method="get">
+      <input type="submit" value="Go to Another Page" />
+    </form>
+  </body>
+</html>
