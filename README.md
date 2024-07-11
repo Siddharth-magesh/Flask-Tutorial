@@ -10,7 +10,8 @@ The architecture is divided into three parts:
 
 The tutorial begins with the HTML form tag, which collects user input and sends it to a Python local variable via Flask. This temporary data is then injected into a predefined MySQL database using the MySQL Connector module. To retrieve data from MySQL, the SQL module is used to store the data in a temporary Python variable. Finally, Flask renders the template with the retrieved data.
 
-![Architecture](https://github.com/Siddharth-magesh/Flask-Tutorial/tree/main/materials)
+![[Architecture](https://github.com/Siddharth-magesh/Flask-Tutorial/tree/main/materials)
+](https://github.com/Siddharth-magesh/Flask-Tutorial/blob/main/materials/Architecture.jpg)
 
 ## Installation and Running
 1. Download anaconda in your local system from the given link (https://www.anaconda.com/download) and MySQL.
